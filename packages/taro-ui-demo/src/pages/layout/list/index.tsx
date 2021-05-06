@@ -35,7 +35,7 @@ export default class ListPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>基本用法</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtList>
                   <AtListItem title='标题文字' onClick={this.handleClick} />
                   <AtListItem title='标题文字' arrow='right' />
@@ -50,7 +50,7 @@ export default class ListPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>包含描述信息</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtList>
                   <AtListItem title='标题文字' note='描述信息' />
                   <AtListItem title='标题文字' note='描述信息' arrow='right' />
@@ -69,7 +69,7 @@ export default class ListPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>包含图片</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtList>
                   <AtListItem
                     title='标题文字'
@@ -98,7 +98,7 @@ export default class ListPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>支持图标(不能与thumb同时存在)</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtList>
                   <AtListItem
                     title='标题文字'
@@ -130,7 +130,7 @@ export default class ListPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>无边框</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtList hasBorder={false}>
                   <AtListItem
                     isSwitch
@@ -153,7 +153,7 @@ export default class ListPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>Switch 按钮列表</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtList>
                   <AtListItem
                     title='标题文字'

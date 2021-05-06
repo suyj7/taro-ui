@@ -1,3 +1,5 @@
+const path = require('path');
+
 const config = {
   projectName: 'taro-ui-demo',
   date: '2020-4-5',
@@ -16,6 +18,9 @@ const config = {
     options: {}
   },
   framework: 'react',
+  alias: {
+     '~': path.resolve(__dirname, '..', 'node_modules/'),
+  },
   mini: {
     postcss: {
       pxtransform: {

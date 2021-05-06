@@ -40,7 +40,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtForm>
                   <AtSwitch
                     title='开启中'
@@ -57,7 +57,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>禁用状态</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtForm>
                   <AtSwitch title='不可点击' checked disabled />
                   <AtSwitch title='不可点击' border={false} disabled />

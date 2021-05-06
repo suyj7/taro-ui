@@ -72,7 +72,7 @@ export default class ModalPage extends React.Component<{}, ModalPageState> {
           <View className='panel'>
             <View className='panel__title'>基础模态框</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 1)}>
                   打开基础模态框
                 </AtButton>
@@ -84,7 +84,7 @@ export default class ModalPage extends React.Component<{}, ModalPageState> {
           <View className='panel'>
             <View className='panel__title'>单个按钮</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 2)}>
                   打开单个按钮模态框
                 </AtButton>
@@ -96,7 +96,7 @@ export default class ModalPage extends React.Component<{}, ModalPageState> {
           <View className='panel'>
             <View className='panel__title'>无标题</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 3)}>
                   打开无标题模态框
                 </AtButton>
@@ -108,7 +108,7 @@ export default class ModalPage extends React.Component<{}, ModalPageState> {
           <View className='panel'>
             <View className='panel__title'>简化使用</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 4)}>
                   打开简化使用模态框
                 </AtButton>
@@ -120,7 +120,7 @@ export default class ModalPage extends React.Component<{}, ModalPageState> {
           <View className='panel'>
             <View className='panel__title'>城市索引</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 5)}>
                   打开城市索引
                 </AtButton>

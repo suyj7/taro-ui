@@ -66,13 +66,13 @@ export default class ProgressPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>基础进度条</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={25} />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={50} />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={75} />
               </View>
             </View>
@@ -82,10 +82,10 @@ export default class ProgressPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>隐藏进度文案</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={25} isHidePercent />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={75} isHidePercent />
               </View>
             </View>
@@ -95,13 +95,13 @@ export default class ProgressPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>自定义进度条线宽</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={25} strokeWidth={6} />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={50} strokeWidth={8} />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={75} strokeWidth={10} />
               </View>
             </View>
@@ -111,13 +111,13 @@ export default class ProgressPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>自定义颜色</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={25} color='#FF4949' />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={50} color='#13CE66' />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={75} color='#FFC82C' />
               </View>
             </View>
@@ -127,19 +127,19 @@ export default class ProgressPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>不同的状态</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='example-item__desc'>暂停</View>
                 <AtProgress percent={25} />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='example-item__desc'>进行中</View>
                 <AtProgress percent={50} status='progress' />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='example-item__desc'>错误</View>
                 <AtProgress percent={75} status='error' />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='example-item__desc'>已完成</View>
                 <AtProgress percent={100} status='success' />
               </View>
@@ -150,7 +150,7 @@ export default class ProgressPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>实际案例</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtProgress percent={percent} />
                 <View className='example-item__buttons'>
                   <View className='btn'>

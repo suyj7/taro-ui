@@ -72,7 +72,7 @@ export default class ToastPage extends React.Component<{}, ToastPageState> {
           <View className='panel'>
             <View className='panel__title'>基本案例</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton
                   onClick={this.handleClick.bind(this, {
                     text: '文本内容'
@@ -81,7 +81,7 @@ export default class ToastPage extends React.Component<{}, ToastPageState> {
                   文本 Toast
                 </AtButton>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton
                   onClick={this.handleClick.bind(this, {
                     text: '文本内容',

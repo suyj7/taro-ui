@@ -74,7 +74,7 @@ export default class GridPage extends React.Component<{}, GridPageState> {
           <View className='panel'>
             <View className='panel__title'>正方形案例</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtGrid data={this.state.data} onClick={this.handleClick} />
               </View>
             </View>
@@ -83,7 +83,7 @@ export default class GridPage extends React.Component<{}, GridPageState> {
           <View className='panel'>
             <View className='panel__title'>矩形案例</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtGrid
                   mode='rect'
                   data={[
@@ -102,7 +102,7 @@ export default class GridPage extends React.Component<{}, GridPageState> {
           <View className='panel'>
             <View className='panel__title'>没有边框</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtGrid
                   mode='rect'
                   data={[

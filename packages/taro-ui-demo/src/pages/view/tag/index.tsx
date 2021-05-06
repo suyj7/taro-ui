@@ -120,7 +120,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           <View className='panel'>
             <View className='panel__title'>空心标签</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 {this.state.hollowTagList.map((item, index) => (
                   <View className='subitem' key={`at-tag-${index}`}>
                     <AtTag
@@ -141,7 +141,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           <View className='panel'>
             <View className='panel__title'>实心标签</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 {this.state.solidTagList.map((item, index) => (
                   <View className='subitem' key={`at-tag-${index}`}>
                     <AtTag
@@ -163,7 +163,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           <View className='panel'>
             <View className='panel__title'>点击事件</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 {this.state.tagList.map((item, index) => (
                   <View className='subitem' key={`at-tag-${index}`}>
                     <AtTag
@@ -185,7 +185,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           <View className='panel'>
             <View className='panel__title'>不可点击态</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='subitem'>
                   <AtTag type='primary' circle disabled>
                     标签
@@ -204,7 +204,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           <View className='panel'>
             <View className='panel__title'>空心标签（小）</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 {this.state.hollowTagList2.map((item, index) => (
                   <View className='subitem' key={`at-tag-${index}`}>
                     <AtTag
@@ -226,7 +226,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           <View className='panel'>
             <View className='panel__title'>实心标签（小）</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 {this.state.solidTagList2.map((item, index) => (
                   <View className='subitem' key={`at-tag-${index}`}>
                     <AtTag
@@ -249,7 +249,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           <View className='panel'>
             <View className='panel__title'>不可点击态（小）</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='subitem'>
                   <AtTag size='small' type='primary' circle disabled>
                     标签

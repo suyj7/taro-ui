@@ -78,7 +78,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtImagePicker
                   files={this.state.files1}
                   onChange={this.onChange.bind(this, 'files1')}
@@ -91,7 +91,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>多选图片</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtImagePicker
                   multiple
                   files={this.state.files2}
@@ -107,7 +107,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>自定义每行数量</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtImagePicker
                   multiple
                   length={3}
@@ -122,7 +122,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>更改图片的缩放模式</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtImagePicker
                   mode='aspectFit'
                   multiple

@@ -26,7 +26,7 @@ export default class AvatarPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>圆形头像</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='subitem'>
                   <AtAvatar circle size='small' image={avatarImg}></AtAvatar>
                 </View>
@@ -44,7 +44,7 @@ export default class AvatarPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>圆角矩形头像</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='subitem'>
                   <AtAvatar size='small' image={avatarImg}></AtAvatar>
                 </View>
@@ -62,7 +62,7 @@ export default class AvatarPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>圆形头像（支持文本）</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='subitem'>
                   <AtAvatar circle size='small' text='凹'></AtAvatar>
                 </View>
@@ -80,7 +80,7 @@ export default class AvatarPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>圆角矩形头像（支持文本）</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='subitem'>
                   <AtAvatar size='small' text='凹'></AtAvatar>
                 </View>
@@ -101,7 +101,7 @@ export default class AvatarPage extends React.Component {
                 openData 头像（仅微信小程序支持）
               </View>
               <View className='panel__content'>
-                <View className='example-item'>
+                <View className='panel__content--example-item'>
                   <View className='subitem'>
                     <AtAvatar
                       openData={{ type: 'userAvatarUrl' }}

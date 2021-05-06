@@ -87,7 +87,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>普通选择器</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <Picker
                   mode='selector'
                   range={selector}
@@ -110,7 +110,7 @@ export default class Index extends React.Component<{}, IndexState> {
             <View className='panel'>
               <View className='panel__title'>多列选择器</View>
               <View className='panel__content'>
-                <View className='example-item'>
+                <View className='panel__content--example-item'>
                   <Picker
                     mode='multiSelector'
                     range={multiSelector}
@@ -133,7 +133,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>时间选择器</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <Picker
                   mode='time'
                   value={timeSel}
@@ -152,7 +152,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>日期选择器</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <Picker
                   mode='date'
                   value={dateSel}

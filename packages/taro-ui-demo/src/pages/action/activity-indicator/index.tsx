@@ -43,7 +43,7 @@ export default class ActivityIndicatorPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>自定义尺寸</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='subitem'>
                   <AtActivityIndicator size={20}></AtActivityIndicator>
                 </View>
@@ -61,7 +61,7 @@ export default class ActivityIndicatorPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>自定义颜色</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='subitem'>
                   <AtActivityIndicator color='#13CE66' />
                 </View>
@@ -79,7 +79,7 @@ export default class ActivityIndicatorPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>自定义文字</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtActivityIndicator content='加载中...' />
               </View>
             </View>
@@ -95,7 +95,7 @@ export default class ActivityIndicatorPage extends React.Component<
                 checked={this.state.isOpened}
                 onChange={this.handleChange.bind(this)}
               />
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtActivityIndicator
                   content='加载中...'
                   isOpened={this.state.isOpened}

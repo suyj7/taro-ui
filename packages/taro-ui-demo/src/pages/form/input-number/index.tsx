@@ -52,7 +52,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='example-item__desc'>
                   min=0, max=10, step=1
                 </View>
@@ -71,7 +71,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>小数</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='example-item__desc'>
                   min=0, max=10, step=0.1
                 </View>
@@ -91,7 +91,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>禁用状态</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtInputNumber
                   disabled
                   min={0}
@@ -107,7 +107,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>禁用输入状态</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtInputNumber
                   disabledInput
                   min={0}
@@ -124,7 +124,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>自定义宽度</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtInputNumber
                   width={200}
                   min={0}
@@ -141,7 +141,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>大尺寸</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtInputNumber
                   size='large'
                   min={0}

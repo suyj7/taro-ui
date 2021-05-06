@@ -1,6 +1,6 @@
 import PropTypes, { InferProps } from 'prop-types'
 import React from 'react'
-import { View } from '@tarojs/components'
+import { View, Text } from '@tarojs/components'
 import './index.scss'
 
 export interface DocsHeaderProps {
@@ -16,7 +16,8 @@ export default class DocsHeader extends React.Component<DocsHeaderProps> {
 
     return (
       <View className='doc-header'>
-        <View className='doc-header__title'>{title}</View>
+        <Text className='doc-header__title'>{title}</Text>
+        {process.env.TARO_ENV === 'rn' && <View className='doc-header__line' />}
       </View>
     )
   }

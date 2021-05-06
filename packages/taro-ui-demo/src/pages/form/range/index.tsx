@@ -41,7 +41,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 数值范围：{this.state.value1[0]}~{this.state.value1[1]}
               </View>
               <AtRange
@@ -56,7 +56,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>自定义样式</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 数值范围：{this.state.value2[0]}~{this.state.value2[1]}
               </View>
               <AtRange

@@ -66,7 +66,7 @@ export default class PaginationPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtPagination
                   total={20}
                   pageSize={10}
@@ -80,7 +80,7 @@ export default class PaginationPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>图标类型</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtPagination
                   icon
                   total={20}
@@ -95,7 +95,7 @@ export default class PaginationPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>picker快速选择页码</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtPagination
                   icon
                   total={20}
@@ -110,7 +110,7 @@ export default class PaginationPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>改变数据长度</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtPagination
                   icon
                   total={len}

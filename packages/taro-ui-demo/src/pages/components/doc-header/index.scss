@@ -1,16 +1,18 @@
 .doc-header {
   display: flex;
+  flex-direction: row;
   align-items: center;
   padding: 60px;
   height: 180px;
+  position: relative;
 
   &__title {
-    position: relative;
     height: 90px;
     color: #333;
     font-size: 40px;
     font-weight: bold;
 
+    /*  #ifndef  rn  */
     &::after {
       content: '';
       position: absolute;
@@ -22,5 +24,17 @@
       border-radius: 1PX;
       background-color: #6190E8;
     }
+    /*  #endif  */
+  }
+
+  &__line {
+    position: absolute;
+    left: 60px;
+    bottom: 50px;
+    display: flex;
+    width: 120px;
+    height: 2PX;
+    border-radius: 1PX;
+    background-color: #6190E8;
   }
 }

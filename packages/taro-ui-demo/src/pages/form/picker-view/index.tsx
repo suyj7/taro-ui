@@ -96,7 +96,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='example-item__desc'>嵌入页面的滑动选择器</View>
                 {isWeapp || isAlipay ? (
                   <View>

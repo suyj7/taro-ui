@@ -31,27 +31,27 @@ export default class ToastPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>基本案例</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, '')}>
                   普通消息
                 </AtButton>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 'success')}>
                   成功消息
                 </AtButton>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 'error')}>
                   错误消息
                 </AtButton>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 'warning')}>
                   警告消息
                 </AtButton>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 'info')}>
                   提示消息
                 </AtButton>

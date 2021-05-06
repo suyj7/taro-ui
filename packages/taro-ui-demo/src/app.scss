@@ -1,4 +1,4 @@
-@import "~taro-ui/dist/style/index.scss";
+// @import "~taro-ui/dist/style/index.scss";
 
 #app {
   background-color: #f8f8f8;
@@ -33,10 +33,10 @@ view {
   &__header {
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid $color-grey-4;
+    // border-bottom: 1px solid $color-grey-4;
 
     &-title {
-      color: $color-grey-2;
+      // color: $color-grey-2;
       font-size: 28px;
     }
 

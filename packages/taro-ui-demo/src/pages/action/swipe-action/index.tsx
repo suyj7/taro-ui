@@ -236,7 +236,7 @@ export default class SwipeActionPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>与List组件使用</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtList>
                   <AtSwipeAction options={OPTIONS}>
                     <AtListItem title='Item1' />
@@ -264,7 +264,7 @@ export default class SwipeActionPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>控制只显示单个</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtList>
                   {list.map((item, index) => (
                     <AtSwipeAction

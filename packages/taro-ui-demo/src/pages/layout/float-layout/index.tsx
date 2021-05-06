@@ -76,7 +76,7 @@ export default class FloatLayoutPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>基本用法</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 1)}>
                   打开 Float Layout
                 </AtButton>
@@ -88,7 +88,7 @@ export default class FloatLayoutPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>最大高度</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 2)}>
                   打开 Float Layout
                 </AtButton>
@@ -99,7 +99,7 @@ export default class FloatLayoutPage extends React.Component<
           <View className='panel'>
             <View className='panel__title'>监听事件</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtButton onClick={this.handleClick.bind(this, 3)}>
                   打开 Float Layout
                 </AtButton>

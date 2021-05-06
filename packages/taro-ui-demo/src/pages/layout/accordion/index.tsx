@@ -40,7 +40,7 @@ export default class CardPage extends React.Component<{}, CardPageState> {
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtAccordion
                   onClick={this.onClick.bind(this, 'value1')}
                   title='标题一'
@@ -88,7 +88,7 @@ export default class CardPage extends React.Component<{}, CardPageState> {
           <View className='panel'>
             <View className='panel__title'>配置图标</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtAccordion
                   title='标题三'
                   open={value4}
@@ -115,7 +115,7 @@ export default class CardPage extends React.Component<{}, CardPageState> {
           <View className='panel'>
             <View className='panel__title'>包含描述信息</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtAccordion
                   title='标题三'
                   note='描述信息'

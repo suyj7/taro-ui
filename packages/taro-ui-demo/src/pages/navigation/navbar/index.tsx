@@ -52,14 +52,14 @@ export default class Index extends React.Component {
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtNavBar
                   onClickLeftIcon={this.handleClick.bind(this, '返回')}
                   title='NavBar 导航栏示例'
                   leftIconType='chevron-left'
                 />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtNavBar
                   onClickLeftIcon={this.handleClick.bind(this, '返回')}
                   title='NavBar 导航栏示例'
@@ -68,7 +68,7 @@ export default class Index extends React.Component {
                   rightSecondIconType='user'
                 />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtNavBar
                   onClickLeftIcon={this.handleClick.bind(this, '返回')}
                   title='NavBar 导航栏示例'
@@ -83,7 +83,7 @@ export default class Index extends React.Component {
           <View className='panel'>
             <View className='panel__title'>自定义左上角文案</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtNavBar
                   onClickLeftIcon={this.handleClick.bind(this, '返回')}
                   title='NavBar 导航栏示例'
@@ -93,7 +93,7 @@ export default class Index extends React.Component {
                   rightSecondIconType='user'
                 />
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtNavBar
                   onClickLeftIcon={this.handleClick.bind(this, '返回')}
                   title='NavBar 导航栏示例'

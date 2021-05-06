@@ -43,7 +43,7 @@ export default class FlexPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>基本案例</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row'>
                   <View className='at-col'>A</View>
                   <View className='at-col'>B</View>
@@ -57,7 +57,7 @@ export default class FlexPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>定义长度</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row'>
                   <View className='at-col at-col-3'>A</View>
                   <View className='at-col at-col-6'>B</View>
@@ -72,7 +72,7 @@ export default class FlexPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>定义偏移</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row'>
                   <View className='at-col at-col__offset-2'>A</View>
                   <View className='at-col at-col__offset-3'>B</View>
@@ -86,7 +86,7 @@ export default class FlexPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>超出换行</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row at-row--wrap'>
                   <View className='at-col at-col-4'>A</View>
                   <View className='at-col at-col-4'>B</View>
@@ -102,7 +102,7 @@ export default class FlexPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>宽度根据内容撑开</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row'>
                   <View className='at-col at-col-1 at-col--auto'>
                     被内容撑开
@@ -117,7 +117,7 @@ export default class FlexPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>内容自动换行</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row'>
                   <View className='at-col at-col-1 at-col--wrap'>
                     内容自动换行
@@ -131,7 +131,7 @@ export default class FlexPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>侧轴方向的对齐方式</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row'>
                   <View style='height:100px' className='at-col'>
                     A
@@ -139,7 +139,7 @@ export default class FlexPage extends React.Component {
                   <View className='at-col'>默认对齐方式 -- stretch</View>
                 </View>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row at-row__align--start'>
                   <View style='height:100px' className='at-col'>
                     B
@@ -147,7 +147,7 @@ export default class FlexPage extends React.Component {
                   <View className='at-col'>顶部对齐 -- start</View>
                 </View>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row at-row__align--center'>
                   <View style='height:100px' className='at-col'>
                     C
@@ -155,7 +155,7 @@ export default class FlexPage extends React.Component {
                   <View className='at-col'>居中对齐 -- center</View>
                 </View>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row at-row__align--end'>
                   <View style='height:100px' className='at-col'>
                     D
@@ -169,31 +169,31 @@ export default class FlexPage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>主轴方向的排列方式</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row'>
                   <View className='at-col at-col-5'>默认</View>
                   <View className='at-col at-col-5'>Start</View>
                 </View>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row at-row__justify--end'>
                   <View className='at-col at-col-5'>底部排列</View>
                   <View className='at-col at-col-5'>End</View>
                 </View>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row at-row__justify--center'>
                   <View className='at-col at-col-5'>居中排列</View>
                   <View className='at-col at-col-5'>Center</View>
                 </View>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row at-row__justify--between'>
                   <View className='at-col at-col-5'>左右排列</View>
                   <View className='at-col at-col-5'>Between</View>
                 </View>
               </View>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='at-row at-row__justify--around'>
                   <View className='at-col at-col-5'>平均排列</View>
                   <View className='at-col at-col-5'>Around</View>

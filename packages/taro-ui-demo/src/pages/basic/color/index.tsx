@@ -138,14 +138,14 @@ export default class BasicColor extends React.Component<{}, BasicColorState> {
     return (
       <View className='page'>
         {/* S Header */}
-        <DocsHeader title='Color 颜色'></DocsHeader>
+        <DocsHeader title='Color 颜色' />
         {/* E Header */}
 
         {/* S Body */}
         <View className='doc-body'>
           {colorData.map(item => (
             <View className='panel' key={item.type}>
-              <View className='panel__title'>{item.type}</View>
+              <Text className='panel__title'>{item.type}</Text>
               <View className='panel__content'>
                 <View className='color-list'>
                   {item.data.map((color: Color, index: number) => (
@@ -155,17 +155,19 @@ export default class BasicColor extends React.Component<{}, BasicColorState> {
                     >
                       <View
                         className='color-item__circle'
-                        style={`background: ${color.hex}`}
+                        style={{ backgroundColor: color.hex }}
                       >
-                        <View className='inner-circle-1'></View>
+                        <View className='color-item__circle--inner-circle-1' />
                         <View
-                          className='inner-circle-2'
-                          style={`border-color: ${color.hex}`}
-                        ></View>
+                          className='color-item__circle--inner-circle-2'
+                          style={{ borderColor: color.hex }}
+                        />
                       </View>
                       <View className='color-item__info'>
-                        <Text className='name'>{color.name}</Text>
-                        <Text className='hex' selectable>
+                        <Text className='color-item__info--name'>
+                          {color.name}
+                        </Text>
+                        <Text className='color-item__info--hex' selectable>
                           {color.hex}
                         </Text>
                       </View>

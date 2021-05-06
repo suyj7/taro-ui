@@ -20,7 +20,7 @@ export default class TimelinePage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtTimeline
                   items={[
                     { title: '刷牙洗脸' },
@@ -37,7 +37,7 @@ export default class TimelinePage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>自定义颜色</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtTimeline
                   items={[
                     { title: '刷牙洗脸' },
@@ -54,7 +54,7 @@ export default class TimelinePage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>自定义图标</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtTimeline
                   items={[
                     { title: '刷牙洗脸', icon: 'check-circle' },
@@ -71,7 +71,7 @@ export default class TimelinePage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>幽灵节点</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtTimeline
                   pending
                   items={[
@@ -89,7 +89,7 @@ export default class TimelinePage extends React.Component {
           <View className='panel'>
             <View className='panel__title'>丰富内容</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtTimeline
                   pending
                   items={[

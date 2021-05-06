@@ -108,7 +108,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='checkbox-container'>
                   <AtCheckbox
                     options={this.state.checkboxOption1}
@@ -124,7 +124,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>含描述信息</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='checkbox-container'>
                   <AtCheckbox
                     options={this.state.checkboxOption2}
@@ -140,7 +140,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>选项禁用</View>
             <View className='panel__content no-padding'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View className='checkbox-container'>
                   <AtCheckbox
                     options={this.state.checkboxOption3}

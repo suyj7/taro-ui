@@ -44,7 +44,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtRate
                   value={rateValue1}
                   onChange={this.handleRateChange.bind(this, 'rateValue1')}
@@ -57,7 +57,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>自定义尺寸</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtRate
                   size={16}
                   value={rateValue2}
@@ -71,7 +71,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>自定义评分数</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtRate
                   max={10}
                   value={rateValue3}
@@ -85,7 +85,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>自定义星星间隔</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtRate
                   margin={15}
                   value={rateValue4}
@@ -99,7 +99,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>只读</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <View>评分: 3.5</View>
                 <View>
                   <AtRate value={3.5} />

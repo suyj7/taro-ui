@@ -42,7 +42,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>基础</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtTextarea
                   value={this.state.value1}
                   onChange={this.handleChange.bind(this, 'value1')}
@@ -55,7 +55,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>不显示字数</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtTextarea
                   count={false}
                   value={this.state.value2}
@@ -69,7 +69,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>文字超出仍可输入</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtTextarea
                   textOverflowForbidden={false}
                   value={this.state.value3}
@@ -83,7 +83,7 @@ export default class Index extends React.Component<{}, IndexState> {
           <View className='panel'>
             <View className='panel__title'>自定义高度</View>
             <View className='panel__content'>
-              <View className='example-item'>
+              <View className='panel__content--example-item'>
                 <AtTextarea
                   height='300'
                   value={this.state.value4}

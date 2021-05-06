@@ -1,5 +1,6 @@
-export default {
-  pages: [
+let pages: string[] = []
+if (process.env.TARO_ENV !== 'rn') {
+  pages = [
     'pages/index/index',
     'pages/panel/index',
     'pages/basic/icon/index',
@@ -54,7 +55,21 @@ export default {
     'pages/form/range/index',
     'pages/advanced/calendar/index',
     'pages/theme/index'
-  ],
+  ]
+}
+if (process.env.TARO_ENV === 'rn') {
+  pages = [
+    'pages/index/index',
+    'pages/panel/index',
+    'pages/basic/icon/index',
+    'pages/basic/button/index',
+    'pages/basic/color/index',
+    'pages/basic/typo/index'
+  ]
+}
+
+export default {
+  pages,
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
