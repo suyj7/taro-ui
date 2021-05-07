@@ -130,7 +130,7 @@ export default class Index extends React.Component<{}, IndexState> {
         {/* S Body */}
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
               <View className='component-item'>
@@ -163,7 +163,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 输入框类型 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>输入框类型</View>
             <View className='panel__content no-padding'>
               <View className='component-item'>
@@ -223,7 +223,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 状态 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>状态</View>
             <View className='panel__content no-padding'>
               <View className='component-item'>
@@ -295,7 +295,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 自定义右边栏 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义右边栏</View>
             <View className='panel__content no-padding'>
               <View className='component-item'>

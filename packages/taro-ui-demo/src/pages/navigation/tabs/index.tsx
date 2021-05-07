@@ -53,7 +53,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
 
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>等宽标签栏</View>
             <View className='panel__content'>
               <AtTabs
@@ -74,7 +74,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
               </AtTabs>
             </View>
           </View>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>滚动标签栏</View>
             <View className='panel__content'>
               <AtTabs
@@ -105,7 +105,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
               </AtTabs>
             </View>
           </View>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>滑动切换内容</View>
             <View className='panel__content'>
               <AtTabs
@@ -126,7 +126,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>垂直模式</View>
             <View className='panel__content'>
               <AtTabs
@@ -183,7 +183,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>禁止内容切换动画</View>
             <View className='panel__content'>
               <AtTabs

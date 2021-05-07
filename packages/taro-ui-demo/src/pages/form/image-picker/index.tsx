@@ -75,7 +75,7 @@ export default class Index extends React.Component<{}, IndexState> {
         {/* S Body */}
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -88,7 +88,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 多选图片 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>多选图片</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -104,7 +104,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 自定义每行数量 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义每行数量</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -119,7 +119,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 更改图片的缩放模式 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>更改图片的缩放模式</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>

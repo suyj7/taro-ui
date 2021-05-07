@@ -32,7 +32,7 @@ export default class ListPage extends React.Component {
 
         <View className='doc-body'>
           {/* 基本用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基本用法</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -47,7 +47,7 @@ export default class ListPage extends React.Component {
           </View>
 
           {/* 包含描述信息 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>包含描述信息</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -66,7 +66,7 @@ export default class ListPage extends React.Component {
           </View>
 
           {/* 包含图片 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>包含图片</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -95,7 +95,7 @@ export default class ListPage extends React.Component {
           </View>
 
           {/* 图标 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>支持图标(不能与thumb同时存在)</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -127,7 +127,7 @@ export default class ListPage extends React.Component {
           </View>
 
           {/* 无边框 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>无边框</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -150,7 +150,7 @@ export default class ListPage extends React.Component {
           </View>
 
           {/* Switch 按钮列表 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>Switch 按钮列表</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>

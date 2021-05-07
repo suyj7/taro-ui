@@ -77,7 +77,7 @@ export default class Index extends React.Component<{}, IndexState> {
         {/* S Body */}
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
               <View className='radio-container'>
@@ -91,7 +91,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 含有单项描述 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>含有单项描述</View>
             <View className='panel__content no-padding'>
               <View className='radio-container'>
@@ -105,7 +105,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 单项禁用 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>单项禁用</View>
             <View className='panel__content no-padding'>
               <View className='radio-container'>

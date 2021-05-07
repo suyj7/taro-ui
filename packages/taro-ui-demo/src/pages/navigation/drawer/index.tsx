@@ -75,7 +75,7 @@ export default class DrawerPage extends React.Component<{}, DrawerPageState> {
         <DocsHeader title='Drawer 抽屉'></DocsHeader>
 
         <View className='doc-body'>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>左边滑出</View>
             <View className='panel__content no-padding'>
               <View className='example'>
@@ -93,7 +93,7 @@ export default class DrawerPage extends React.Component<{}, DrawerPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>右边滑出</View>
             <View className='panel__content no-padding'>
               <View className='example'>
@@ -112,7 +112,7 @@ export default class DrawerPage extends React.Component<{}, DrawerPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义内容</View>
             <View className='panel__content no-padding'>
               <View className='example'>

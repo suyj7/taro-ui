@@ -28,7 +28,7 @@ export default class ToastPage extends React.Component {
 
         {/* S Body */}
         <View className='doc-body'>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基本案例</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

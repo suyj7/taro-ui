@@ -69,7 +69,7 @@ export default class ToastPage extends React.Component<{}, ToastPageState> {
 
         {/* S Body */}
         <View className='doc-body'>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基本案例</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -94,7 +94,7 @@ export default class ToastPage extends React.Component<{}, ToastPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义图片</View>
             <View className='panel__content'>
               <View className='example__item'>
@@ -111,7 +111,7 @@ export default class ToastPage extends React.Component<{}, ToastPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>添加遮罩层</View>
             <View className='panel__content'>
               <View className='example__item'>
@@ -127,7 +127,7 @@ export default class ToastPage extends React.Component<{}, ToastPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>Error Toast</View>
             <View className='panel__content'>
               <View className='example__item'>
@@ -144,7 +144,7 @@ export default class ToastPage extends React.Component<{}, ToastPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>Success Toast</View>
             <View className='panel__content'>
               <View className='example__item'>
@@ -161,7 +161,7 @@ export default class ToastPage extends React.Component<{}, ToastPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>Loading Toast</View>
             <View className='panel__content'>
               <View className='example__item'>

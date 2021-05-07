@@ -69,7 +69,7 @@ export default class ModalPage extends React.Component<{}, ModalPageState> {
 
         <View className='doc-body'>
           {/* 基础模态框 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础模态框</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -81,7 +81,7 @@ export default class ModalPage extends React.Component<{}, ModalPageState> {
           </View>
 
           {/* 单个按钮 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>单个按钮</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -93,7 +93,7 @@ export default class ModalPage extends React.Component<{}, ModalPageState> {
           </View>
 
           {/* 无标题 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>无标题</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -105,7 +105,7 @@ export default class ModalPage extends React.Component<{}, ModalPageState> {
           </View>
 
           {/* 简化使用 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>简化使用</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -117,7 +117,7 @@ export default class ModalPage extends React.Component<{}, ModalPageState> {
           </View>
 
           {/* 城市索引 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>城市索引</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

@@ -84,7 +84,7 @@ export default class Index extends React.Component<{}, IndexState> {
         {/* S Body */}
         <View className='doc-body'>
           {/* 普通选择器 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>普通选择器</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -107,7 +107,7 @@ export default class Index extends React.Component<{}, IndexState> {
 
           {/* 多列选择器 */}
           {!isAlipay && (
-            <View className='panel'>
+            <View className='doc-body--panel'>
               <View className='panel__title'>多列选择器</View>
               <View className='panel__content'>
                 <View className='panel__content--example-item'>
@@ -130,7 +130,7 @@ export default class Index extends React.Component<{}, IndexState> {
           )}
 
           {/* 时间选择器 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>时间选择器</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -149,7 +149,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 日期选择器 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>日期选择器</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

@@ -64,7 +64,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           </AtCurtain>
 
           {/* 顶部关闭 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>顶部关闭</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -82,7 +82,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           </View>
 
           {/* 底部关闭 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>底部关闭</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -100,7 +100,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           </View>
 
           {/* 左上关闭 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>左上关闭</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -118,7 +118,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           </View>
 
           {/* 右上关闭 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>右上关闭</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -136,7 +136,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           </View>
 
           {/* 左下关闭 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>左下关闭</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -154,7 +154,7 @@ export default class TagPage extends React.Component<{}, TagPageState> {
           </View>
 
           {/* 右下关闭 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>右下关闭</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

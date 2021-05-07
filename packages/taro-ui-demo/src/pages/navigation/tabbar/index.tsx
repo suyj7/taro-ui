@@ -71,7 +71,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
         <DocsHeader title='TabBar 标签栏'></DocsHeader>
 
         <View className='doc-body'>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>文本标签栏</View>
             <View className='panel__content no-padding'>
               <AtTabBar
@@ -81,7 +81,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
               />
             </View>
           </View>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>图标文本标签栏</View>
             <View className='panel__content no-padding'>
               <AtTabBar
@@ -91,7 +91,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
               />
             </View>
           </View>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>
               自定义图标颜色、字体颜色、背景颜色
             </View>
@@ -106,7 +106,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
               />
             </View>
           </View>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>图片icon</View>
             <View
               className='panel__content no-padding'
@@ -119,7 +119,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
               />
             </View>
           </View>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>固定底部</View>
             <View
               className='panel__content no-padding'

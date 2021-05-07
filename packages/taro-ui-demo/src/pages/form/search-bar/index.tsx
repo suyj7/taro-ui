@@ -47,7 +47,7 @@ export default class Index extends React.Component<{}, IndexState> {
         {/* S Body */}
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
               <View className='component-item'>
@@ -61,7 +61,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 自定义按钮文字和点击事件 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义按钮文字和点击事件</View>
             <View className='panel__content no-padding'>
               <View className='component-item'>
@@ -76,7 +76,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 始终显示按钮 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>始终显示按钮</View>
             <View className='panel__content no-padding'>
               <View className='component-item'>
@@ -92,7 +92,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 自定义输入框类型 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义输入框类型</View>
             <View className='panel__content no-padding'>
               <View className='component-item'>

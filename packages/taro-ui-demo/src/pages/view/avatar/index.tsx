@@ -23,17 +23,17 @@ export default class AvatarPage extends React.Component {
         {/* S Body */}
         <View className='doc-body'>
           {/* 圆形头像 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>圆形头像</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar circle size='small' image={avatarImg}></AtAvatar>
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar circle image={avatarImg}></AtAvatar>
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar circle size='large' image={avatarImg}></AtAvatar>
                 </View>
               </View>
@@ -41,17 +41,17 @@ export default class AvatarPage extends React.Component {
           </View>
 
           {/* 圆角矩形头像 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>圆角矩形头像</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar size='small' image={avatarImg}></AtAvatar>
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar image={avatarImg}></AtAvatar>
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar size='large' image={avatarImg}></AtAvatar>
                 </View>
               </View>
@@ -59,17 +59,17 @@ export default class AvatarPage extends React.Component {
           </View>
 
           {/* 圆形头像（支持文本） */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>圆形头像（支持文本）</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar circle size='small' text='凹'></AtAvatar>
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar circle text='凹'></AtAvatar>
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar circle size='large' text='凹'></AtAvatar>
                 </View>
               </View>
@@ -77,17 +77,17 @@ export default class AvatarPage extends React.Component {
           </View>
 
           {/* 圆角矩形头像（支持文本） */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>圆角矩形头像（支持文本）</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar size='small' text='凹'></AtAvatar>
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar text='凹'></AtAvatar>
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtAvatar size='large' text='凹'></AtAvatar>
                 </View>
               </View>
@@ -96,28 +96,28 @@ export default class AvatarPage extends React.Component {
 
           {/* openData 头像（仅微信小程序支持） */}
           {Taro.getEnv() === Taro.ENV_TYPE.WEAPP && (
-            <View className='panel'>
+            <View className='doc-body--panel'>
               <View className='panel__title'>
                 openData 头像（仅微信小程序支持）
               </View>
               <View className='panel__content'>
                 <View className='panel__content--example-item'>
-                  <View className='subitem'>
+                  <View className='panel__content--example-item--subitem'>
                     <AtAvatar
                       openData={{ type: 'userAvatarUrl' }}
                       size='small'
                     ></AtAvatar>
                   </View>
-                  <View className='subitem'>
+                  <View className='panel__content--example-item--subitem'>
                     <AtAvatar openData={{ type: 'userAvatarUrl' }}></AtAvatar>
                   </View>
-                  <View className='subitem'>
+                  <View className='panel__content--example-item--subitem'>
                     <AtAvatar
                       size='large'
                       openData={{ type: 'userAvatarUrl' }}
                     ></AtAvatar>
                   </View>
-                  <View className='subitem'>
+                  <View className='panel__content--example-item--subitem'>
                     <AtAvatar
                       size='large'
                       circle

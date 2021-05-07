@@ -32,7 +32,7 @@ export default class NoticebarPage extends React.Component {
         {/* S Body */}
         <View className='doc-body'>
           {/* 文字 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>文字</View>
             <View className='panel__content'>
               <View className='bar-item'>
@@ -51,7 +51,7 @@ export default class NoticebarPage extends React.Component {
           </View>
 
           {/* 跑马灯 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>跑马灯</View>
             <View className='panel__content'>
               <View className='bar-item'>
@@ -73,7 +73,7 @@ export default class NoticebarPage extends React.Component {
           </View>
 
           {/* 图标 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>图标</View>
             <View className='panel__content'>
               <View className='bar-item'>
@@ -92,7 +92,7 @@ export default class NoticebarPage extends React.Component {
           </View>
 
           {/* 查看更多 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>查看更多</View>
             <View className='panel__content'>
               <View className='bar-item'>
@@ -141,7 +141,7 @@ export default class NoticebarPage extends React.Component {
           </View>
 
           {/* 关闭按钮 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>关闭按钮</View>
             <View className='panel__content'>
               <View className='bar-item'>

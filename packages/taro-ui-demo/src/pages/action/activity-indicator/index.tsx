@@ -40,17 +40,17 @@ export default class ActivityIndicatorPage extends React.Component<
         {/* S Body */}
         <View className='doc-body'>
           {/* 自定义尺寸 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义尺寸</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtActivityIndicator size={20}></AtActivityIndicator>
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtActivityIndicator size={24} />
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtActivityIndicator size={32} />
                 </View>
               </View>
@@ -58,17 +58,17 @@ export default class ActivityIndicatorPage extends React.Component<
           </View>
 
           {/* 自定义颜色 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义颜色</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtActivityIndicator color='#13CE66' />
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtActivityIndicator color='#FF4949' />
                 </View>
-                <View className='subitem'>
+                <View className='panel__content--example-item--subitem'>
                   <AtActivityIndicator color='#C9C9C9' />
                 </View>
               </View>
@@ -76,7 +76,7 @@ export default class ActivityIndicatorPage extends React.Component<
           </View>
 
           {/* 自定义文字 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义文字</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -86,7 +86,7 @@ export default class ActivityIndicatorPage extends React.Component<
           </View>
 
           {/* 状态切换 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>状态切换</View>
             <View className='panel__content '>
               <AtSwitch
@@ -105,7 +105,7 @@ export default class ActivityIndicatorPage extends React.Component<
           </View>
 
           {/* 垂直水平居中 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>垂直水平居中</View>
             <View className='panel__content'>
               <View className='example-item example-item--center'>

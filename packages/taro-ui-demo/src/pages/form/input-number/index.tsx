@@ -49,7 +49,7 @@ export default class Index extends React.Component<{}, IndexState> {
         {/* S Body */}
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -68,7 +68,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 小数 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>小数</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -88,7 +88,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 禁用状态 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>禁用状态</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -104,7 +104,7 @@ export default class Index extends React.Component<{}, IndexState> {
             </View>
           </View>
           {/* 禁用输入状态 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>禁用输入状态</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -121,7 +121,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 自定义宽度 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义宽度</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -138,7 +138,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 大尺寸 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>大尺寸</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

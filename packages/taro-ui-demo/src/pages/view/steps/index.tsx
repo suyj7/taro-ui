@@ -106,7 +106,7 @@ export default class TimelinePage extends React.Component<
 
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -125,7 +125,7 @@ export default class TimelinePage extends React.Component<
           </View>
 
           {/* 带附加信息 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>带附加信息</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -139,7 +139,7 @@ export default class TimelinePage extends React.Component<
           </View>
 
           {/* 自定义图标 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义图标</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -153,7 +153,7 @@ export default class TimelinePage extends React.Component<
           </View>
 
           {/* 状态步骤条 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>状态步骤条</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

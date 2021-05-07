@@ -74,7 +74,7 @@ class Index extends React.Component {
         <div className='feature-wrapper'>
           <div className='main-title'>特性</div>
           <div className='panel-container'>
-            <div className='panel'>
+            <div className='doc-body--panel'>
               <div className='panel-img'>
                 <img src={panelImg1} />
               </div>
@@ -83,7 +83,7 @@ class Index extends React.Component {
                 一套组件可以在微信小程序 / H5 / 百度小程序 等多端适配运行
               </div>
             </div>
-            <div className='panel'>
+            <div className='doc-body--panel'>
               <div className='panel-img'>
                 <img src={panelImg2} />
               </div>
@@ -92,7 +92,7 @@ class Index extends React.Component {
                 提供丰富的基础组件，覆盖大部分使用场景，满足各种功能需求
               </div>
             </div>
-            <div className='panel'>
+            <div className='doc-body--panel'>
               <div className='panel-img'>
                 <img src={panelImg3} />
               </div>
@@ -101,7 +101,7 @@ class Index extends React.Component {
                 可按需使用独立的组件，不必引入所有文件，可最小化的注入到项目中
               </div>
             </div>
-            <div className='panel'>
+            <div className='doc-body--panel'>
               <div className='panel-tip-container'>
                 <img src={panelTip} />
               </div>

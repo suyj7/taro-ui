@@ -26,6 +26,8 @@ interface PanelBasicState {
   currentId: string
 }
 
+const RN_NOT_SUPOORT = ['Icon']
+
 export default class PanelBasic extends React.Component<{}, PanelBasicState> {
   public config: Taro.PageConfig = {
     navigationBarTitleText: 'Taro UI'
@@ -292,7 +294,7 @@ export default class PanelBasic extends React.Component<{}, PanelBasicState> {
   public componentDidMount(): void {
     // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
     // @ts-ignore
-    const { id } = Taro.Current.router.params
+    const { id = '' } = Taro.Current.router.params
     this.setState({
       currentId: id.toLowerCase() || ''
     })
@@ -332,16 +334,19 @@ export default class PanelBasic extends React.Component<{}, PanelBasicState> {
         {/* S Body */}
         <View className='panel-body'>
           <View className='component-list'>
-            {itemList.map(item => (
-              <View
-                className='component-list__item'
-                key={item.id}
-                onClick={this.gotoComponent.bind(this, item.id, currentId)}
-              >
-                <Text className='component-list__item--name'>{`${item.id} ${item.name}`}</Text>
-                <Text className='at-icon at-icon-chevron-right' />
-              </View>
-            ))}
+            {itemList.map(item => {
+              return process.env.TARO_ENV === 'rn' &&
+                !RN_NOT_SUPOORT.includes(item.id) ? (
+                <View
+                  className='component-list__item'
+                  key={item.id}
+                  onClick={this.gotoComponent.bind(this, item.id, currentId)}
+                >
+                  <Text className='component-list__item--name'>{`${item.id} ${item.name}`}</Text>
+                  <Text className='at-icon at-icon-chevron-right' />
+                </View>
+              ) : null
+            })}
           </View>
         </View>
         {/* E Body */}

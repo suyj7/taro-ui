@@ -2,29 +2,39 @@
   color: red;
 }
 
+.demo-button {
+  .at-form {
+    padding-left: 0;
+  }
+}
+
+.btn-demo-fab {
+   /*  #ifndef  rn  */
+  position: fixed;
+    /*  #endif  */
+   /*  #ifdef  rn  */
+  position: absolute;
+    /*  #endif  */
+  right: 32px;
+  bottom: 32px;
+  z-index: 1100;
+}
+
 .panel__content {
-  &.demo-button {
-    .at-form {
-      padding-left: 0;
-    }
-  }
-
-  .btn-demo-fab {
-    position: fixed;
-    right: 32px;
-    bottom: 32px;
-    z-index: 1100;
-  }
-
-  .btn-item {
+  &--btn-item {
     margin-bottom: 20px;
 
+    /*  #ifndef  rn  */
     &:last-child {
       margin-bottom: 0;
     }
 
-    .subitem {
+    /*  #endif  */
+
+    &--subitem {
+       /*  #ifndef  rn  */
       display: inline-block;
+        /*  #endif  */
       margin-left: 24px;
 
       &:first-child {

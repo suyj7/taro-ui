@@ -37,7 +37,7 @@ export default class Index extends React.Component<{}, IndexState> {
         {/* S Body */}
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -54,7 +54,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 禁用状态 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>禁用状态</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>

@@ -23,7 +23,7 @@ export default class CardPage extends React.Component {
         <DocsHeader title='Card 卡片' />
 
         <View className='doc-body'>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础卡片</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -34,7 +34,7 @@ export default class CardPage extends React.Component {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>带缩略图的卡片</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -48,7 +48,7 @@ export default class CardPage extends React.Component {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>带图标的卡片</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -62,7 +62,7 @@ export default class CardPage extends React.Component {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义图标的卡片</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -84,7 +84,7 @@ export default class CardPage extends React.Component {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>带小信息的卡片</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -99,7 +99,7 @@ export default class CardPage extends React.Component {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义额外信息样式的卡片</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -120,7 +120,7 @@ export default class CardPage extends React.Component {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>通栏卡片</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>

@@ -27,7 +27,7 @@ export default class CountDownPage extends React.Component {
         {/* S Body */}
         <View className='doc-body'>
           {/* 一般用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>一般用法</View>
             <View className='panel__content'>
               <AtCountdown minutes={1} seconds={10} />
@@ -44,7 +44,7 @@ export default class CountDownPage extends React.Component {
           </View>
 
           {/* 自定义格式化 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义格式化</View>
             <View className='panel__content'>
               <AtCountdown
@@ -56,7 +56,7 @@ export default class CountDownPage extends React.Component {
           </View>
 
           {/* 卡片式 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>卡片式</View>
             <View className='panel__content'>
               <AtCountdown isCard minutes={1} seconds={10} />
@@ -74,7 +74,7 @@ export default class CountDownPage extends React.Component {
           </View>
 
           {/* 自定义倒计时回调事件 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义倒计时回调事件</View>
             <View className='panel__content'>
               <AtCountdown

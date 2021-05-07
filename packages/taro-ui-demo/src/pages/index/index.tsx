@@ -103,7 +103,7 @@ export default class Index extends React.Component<{}, IndexState> {
             mode='widthFix'
           />
         </View>
-        <View className='page-title'>Taro UI</View>
+        <Text className='page-title'>Taro UI</Text>
         <View className='module-list'>
           {list.map((item, index) => (
             <View

@@ -45,7 +45,7 @@ export default class LoadMorePage extends React.Component<
         {/* S Body */}
         <View className='doc-body'>
           {/* 文字 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>一般用法</View>
             <View className='panel__content no-padding'>
               <AtLoadMore

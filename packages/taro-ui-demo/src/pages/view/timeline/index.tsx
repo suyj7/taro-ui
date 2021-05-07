@@ -17,7 +17,7 @@ export default class TimelinePage extends React.Component {
 
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -34,7 +34,7 @@ export default class TimelinePage extends React.Component {
           </View>
 
           {/* 自定义颜色 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义颜色</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -51,7 +51,7 @@ export default class TimelinePage extends React.Component {
           </View>
 
           {/* 自定义图标 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义图标</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -68,7 +68,7 @@ export default class TimelinePage extends React.Component {
           </View>
 
           {/* 幽灵节点 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>幽灵节点</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -86,7 +86,7 @@ export default class TimelinePage extends React.Component {
           </View>
 
           {/* 丰富内容 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>丰富内容</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

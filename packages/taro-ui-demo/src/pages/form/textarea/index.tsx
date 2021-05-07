@@ -39,7 +39,7 @@ export default class Index extends React.Component<{}, IndexState> {
 
         {/* S Body */}
         <View className='doc-body'>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -52,7 +52,7 @@ export default class Index extends React.Component<{}, IndexState> {
               </View>
             </View>
           </View>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>不显示字数</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -66,7 +66,7 @@ export default class Index extends React.Component<{}, IndexState> {
               </View>
             </View>
           </View>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>文字超出仍可输入</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -80,7 +80,7 @@ export default class Index extends React.Component<{}, IndexState> {
               </View>
             </View>
           </View>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义高度</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

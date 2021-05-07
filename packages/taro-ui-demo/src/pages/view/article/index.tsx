@@ -18,7 +18,7 @@ export default class ArticlePage extends React.Component {
 
         {/* S Body */}
         <View className='doc-body'>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>示例</View>
             <View className='panel__content no-padding'>
               <View className='at-article'>

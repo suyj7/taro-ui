@@ -42,7 +42,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
         {/* S Body */}
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content'>
               <View>
@@ -57,7 +57,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
           </View>
 
           {/* 自定义 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义颜色、字体大小</View>
             <View className='panel__content'>
               <View>
@@ -74,7 +74,7 @@ export default class Index extends React.Component<{}, IndexPageState> {
           </View>
 
           {/* 禁用 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>禁用</View>
             <View className='panel__content'>
               <AtSegmentedControl disabled values={tabList1} />

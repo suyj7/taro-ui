@@ -71,7 +71,7 @@ export default class GridPage extends React.Component<{}, GridPageState> {
         <DocsHeader title='Grid 栅格' />
 
         <View className='doc-body'>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>正方形案例</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -80,7 +80,7 @@ export default class GridPage extends React.Component<{}, GridPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>矩形案例</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -99,7 +99,7 @@ export default class GridPage extends React.Component<{}, GridPageState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>没有边框</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

@@ -41,7 +41,7 @@ export default class Index extends React.Component<{}, IndexState> {
         {/* S Body */}
         <View className='doc-body'>
           {/* 基础用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -54,7 +54,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 自定义尺寸 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义尺寸</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -68,7 +68,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 自定义评分数 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义评分数</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -82,7 +82,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 自定义星星间隔 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义星星间隔</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -96,7 +96,7 @@ export default class Index extends React.Component<{}, IndexState> {
           </View>
 
           {/* 只读 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>只读</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

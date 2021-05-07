@@ -99,14 +99,14 @@ export default class Index extends React.Component<{}, IndexState> {
         <DocsHeader title='Calendar 日历' />
 
         <View className='doc-body'>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>一般案例</View>
             <View className='panel__content'>
               <AtCalendar onMonthChange={this.handleMonthChange} />
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>跳转到指定日期</View>
             <View className='panel__content'>
               <AtCalendar currentDate={now} />
@@ -127,7 +127,7 @@ export default class Index extends React.Component<{}, IndexState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>指定最小日期和最大日期</View>
             <View className='panel__content'>
               <AtCalendar minDate={minDate} maxDate={maxDate} />
@@ -148,7 +148,7 @@ export default class Index extends React.Component<{}, IndexState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>标记时间</View>
             <View className='panel__content'>
               <AtCalendar marks={mark} />
@@ -168,21 +168,21 @@ export default class Index extends React.Component<{}, IndexState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>禁止滑动</View>
             <View className='panel__content'>
               <AtCalendar isSwiper={false} />
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>垂直滑动</View>
             <View className='panel__content'>
               <AtCalendar isVertical onSelectDate={this.handleDateChange} />
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>范围选择</View>
             <View className='panel__content'>
               <AtCalendar
@@ -205,7 +205,7 @@ export default class Index extends React.Component<{}, IndexState> {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>有效时间组</View>
             <View className='panel__content'>
               <AtCalendar validDates={validDates} />

@@ -40,7 +40,7 @@ export default class FlexPage extends React.Component {
 
         <View className='doc-body'>
           {/* 基本案例 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基本案例</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -54,7 +54,7 @@ export default class FlexPage extends React.Component {
           </View>
 
           {/* 定义长度 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>定义长度</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -69,7 +69,7 @@ export default class FlexPage extends React.Component {
           </View>
 
           {/* 定义偏移 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>定义偏移</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -83,7 +83,7 @@ export default class FlexPage extends React.Component {
           </View>
 
           {/* 超出换行 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>超出换行</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -99,7 +99,7 @@ export default class FlexPage extends React.Component {
           </View>
 
           {/* 宽度根据内容撑开 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>宽度根据内容撑开</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -114,7 +114,7 @@ export default class FlexPage extends React.Component {
           </View>
 
           {/* 内容自动换行 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>内容自动换行</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -128,7 +128,7 @@ export default class FlexPage extends React.Component {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>侧轴方向的对齐方式</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -166,7 +166,7 @@ export default class FlexPage extends React.Component {
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>主轴方向的排列方式</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

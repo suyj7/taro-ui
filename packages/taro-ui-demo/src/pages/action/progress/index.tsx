@@ -63,7 +63,7 @@ export default class ProgressPage extends React.Component<
         {/* S Body */}
         <View className='doc-body'>
           {/* 基础进度条 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础进度条</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -79,7 +79,7 @@ export default class ProgressPage extends React.Component<
           </View>
 
           {/* 隐藏进度文案 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>隐藏进度文案</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -92,7 +92,7 @@ export default class ProgressPage extends React.Component<
           </View>
 
           {/* 自定义进度条线宽 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义进度条线宽</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -108,7 +108,7 @@ export default class ProgressPage extends React.Component<
           </View>
 
           {/* 自定义颜色 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>自定义颜色</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -124,7 +124,7 @@ export default class ProgressPage extends React.Component<
           </View>
 
           {/* 不同的状态 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>不同的状态</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -147,7 +147,7 @@ export default class ProgressPage extends React.Component<
           </View>
 
           {/* 实际案例 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>实际案例</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

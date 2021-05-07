@@ -48,7 +48,7 @@ export default class IconPage extends React.Component<{}, IconPageState> {
         {/* S Body */}
         <View className='doc-body'>
           {/* 主要 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>主要</View>
             <View className='panel__content'>
               <View className='icon-list'>
@@ -69,7 +69,7 @@ export default class IconPage extends React.Component<{}, IconPageState> {
           </View>
 
           {/* 文件 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>文件</View>
             <View className='panel__content'>
               <View className='icon-list'>
@@ -90,7 +90,7 @@ export default class IconPage extends React.Component<{}, IconPageState> {
           </View>
 
           {/* 文本 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>文本</View>
             <View className='panel__content'>
               <View className='icon-list'>
@@ -111,7 +111,7 @@ export default class IconPage extends React.Component<{}, IconPageState> {
           </View>
 
           {/* 箭头 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>箭头</View>
             <View className='panel__content'>
               <View className='icon-list'>
@@ -132,7 +132,7 @@ export default class IconPage extends React.Component<{}, IconPageState> {
           </View>
 
           {/* 媒体控制 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>媒体控制</View>
             <View className='panel__content'>
               <View className='icon-list'>
@@ -153,7 +153,7 @@ export default class IconPage extends React.Component<{}, IconPageState> {
           </View>
 
           {/* 多媒体 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>多媒体</View>
             <View className='panel__content'>
               <View className='icon-list'>
@@ -174,7 +174,7 @@ export default class IconPage extends React.Component<{}, IconPageState> {
           </View>
 
           {/* Logo */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>Logo</View>
             <View className='panel__content'>
               <View className='icon-list'>

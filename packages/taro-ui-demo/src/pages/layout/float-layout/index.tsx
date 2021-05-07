@@ -73,7 +73,7 @@ export default class FloatLayoutPage extends React.Component<
 
         <View className='doc-body'>
           {/* 基本用法 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基本用法</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -85,7 +85,7 @@ export default class FloatLayoutPage extends React.Component<
           </View>
 
           {/* 最大高度 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>最大高度</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>
@@ -96,7 +96,7 @@ export default class FloatLayoutPage extends React.Component<
             </View>
           </View>
 
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>监听事件</View>
             <View className='panel__content'>
               <View className='panel__content--example-item'>

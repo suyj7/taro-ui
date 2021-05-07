@@ -37,7 +37,7 @@ export default class CardPage extends React.Component<{}, CardPageState> {
       <View className='page'>
         <DocsHeader title='Accordion 手风琴' />
         <View className='doc-body'>
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>基础用法</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -85,7 +85,7 @@ export default class CardPage extends React.Component<{}, CardPageState> {
           </View>
 
           {/* 配置图标 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>配置图标</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>
@@ -112,7 +112,7 @@ export default class CardPage extends React.Component<{}, CardPageState> {
           </View>
 
           {/* 包含描述信息 */}
-          <View className='panel'>
+          <View className='doc-body--panel'>
             <View className='panel__title'>包含描述信息</View>
             <View className='panel__content no-padding'>
               <View className='panel__content--example-item'>

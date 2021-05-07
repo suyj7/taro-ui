@@ -144,7 +144,7 @@ export default class BasicColor extends React.Component<{}, BasicColorState> {
         {/* S Body */}
         <View className='doc-body'>
           {colorData.map(item => (
-            <View className='panel' key={item.type}>
+            <View className='doc-body--panel' key={item.type}>
               <Text className='panel__title'>{item.type}</Text>
               <View className='panel__content'>
                 <View className='color-list'>
