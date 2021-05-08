@@ -1,9 +1,16 @@
 import classNames from 'classnames'
 import PropTypes, { InferProps } from 'prop-types'
 import React from 'react'
-import { Image, OpenData, Text, View } from '@tarojs/components'
+import { Image, Text, View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import { AtAvatarProps, AtAvatarState } from '../../../types/avatar'
+
+let OpenData: any = null
+if (process.env.TARO_ENV === 'rn') {
+  OpenData = View
+} else {
+  OpenData = require('@tarojs/components')
+}
 
 const SIZE_CLASS = {
   large: 'large',

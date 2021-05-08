@@ -1,7 +1,3 @@
-.my-button.at-button {
-  color: red;
-}
-
 .demo-button {
   .at-form {
     padding-left: 0;
@@ -11,35 +7,36 @@
 .btn-demo-fab {
    /*  #ifndef  rn  */
   position: fixed;
+  z-index: 1100;
     /*  #endif  */
    /*  #ifdef  rn  */
   position: absolute;
     /*  #endif  */
   right: 32px;
   bottom: 32px;
-  z-index: 1100;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.no-margin-left {
+  margin-left: 0;
 }
 
 .panel__content {
   &--btn-item {
     margin-bottom: 20px;
 
-    /*  #ifndef  rn  */
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    /*  #endif  */
-
     &--subitem {
-       /*  #ifndef  rn  */
-      display: inline-block;
-        /*  #endif  */
+       display: flex;
+      flex-direction: row;
       margin-left: 24px;
-
-      &:first-child {
-        margin-left: 0;
-      }
     }
   }
+}
+
+.small-btn {
+  display: flex;
+  flex-direction: row;
 }

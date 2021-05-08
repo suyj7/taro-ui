@@ -1,6 +1,6 @@
 import React from 'react'
-import { AtButton, AtFab, AtForm } from 'taro-ui'
-import { Form, Text, View } from '@tarojs/components'
+import { AtButton } from 'taro-ui/rn'
+import { Form, View } from '@tarojs/components'
 import { CommonEvent } from '@tarojs/components/types/common'
 import Taro, { ShareAppMessageReturn } from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'
@@ -82,7 +82,6 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
 
   public render(): JSX.Element {
     const { isWEAPP, isALIPAY } = this.state
-
     return (
       <View className='page'>
         {/* S Header */}
@@ -111,7 +110,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
                   Loading
                 </AtButton>
               </View>
-              <View className='panel__content--btn-item'>
+              <View className='panel__content--btn-item no-margin-bottom'>
                 <AtButton type='primary' disabled>
                   不可操作
                 </AtButton>
@@ -149,7 +148,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
               <View className='panel__content--btn-item'>
                 <AtButton loading>Loading</AtButton>
               </View>
-              <View className='panel__content--btn-item'>
+              <View className='panel__content--btn-item no-margin-bottom'>
                 <AtButton disabled>不可操作</AtButton>
               </View>
             </View>
@@ -158,7 +157,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
           {/* 通栏 */}
           <View className='doc-body--panel'>
             <View className='panel__title'>通栏按钮</View>
-            <View className='panel__content' style='padding:0'>
+            <View className='panel__content'>
               <View className='panel__content--btn-item'>
                 <AtButton type='primary' full>
                   主操作按钮
@@ -172,7 +171,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
               <View className='panel__content--btn-item'>
                 <AtButton full>次次要操作按钮</AtButton>
               </View>
-              <View className='panel__content--btn-item'>
+              <View className='panel__content--btn-item no-margin-bottom'>
                 <AtButton disabled full>
                   不可操作
                 </AtButton>
@@ -184,7 +183,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
           <View className='doc-body--panel'>
             <View className='panel__title'>小按钮</View>
             <View className='panel__content'>
-              <View className='panel__content--btn-item'>
+              <View className='panel__content--btn-item small-btn'>
                 <View className='panel__content--btn-item--subitem'>
                   <AtButton type='primary' size='small'>
                     按钮
@@ -199,7 +198,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
                   <AtButton size='small'>按钮</AtButton>
                 </View>
               </View>
-              <View className='panel__content--btn-item'>
+              <View className='panel__content--btn-item small-btn'>
                 <View className='panel__content--btn-item--subitem'>
                   <AtButton type='primary' size='small' loading></AtButton>
                 </View>
@@ -210,7 +209,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
                   <AtButton size='small' loading></AtButton>
                 </View>
               </View>
-              <View className='panel__content--btn-item'>
+              <View className='panel__content--btn-item small-btn'>
                 <View className='panel__content--btn-item--subitem'>
                   <AtButton type='primary' size='small' disabled>
                     按钮
@@ -234,7 +233,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
           <View className='doc-body--panel'>
             <View className='panel__title'>圆角按钮</View>
             <View className='panel__content'>
-              <View className='panel__content--btn-item'>
+              <View className='panel__content--btn-item small-btn'>
                 <View className='panel__content--btn-item--subitem'>
                   <AtButton type='primary' size='small' circle>
                     按钮
@@ -251,7 +250,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
                   </AtButton>
                 </View>
               </View>
-              <View className='panel__content--btn-item'>
+              <View className='panel__content--btn-item small-btn'>
                 <View className='panel__content--btn-item--subitem'>
                   <AtButton
                     type='primary'
@@ -272,7 +271,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
                   <AtButton size='small' loading circle></AtButton>
                 </View>
               </View>
-              <View className='panel__content--btn-item'>
+              <View className='panel__content--btn-item small-btn'>
                 <View className='panel__content--btn-item--subitem'>
                   <AtButton type='primary' size='small' disabled circle>
                     按钮
@@ -299,9 +298,9 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
               <View className='panel__content'>
                 <View className='at-article__p'>右侧是浮动操作按钮👉</View>
                 <View className='btn-demo-fab'>
-                  <AtFab onClick={this.onButtonClick.bind(this)}>
+                  {/* <AtFab onClick={this.onButtonClick.bind(this)}>
                     <Text className='at-fab__icon at-icon at-icon-menu'></Text>
-                  </AtFab>
+                  </AtFab> */}
                 </View>
               </View>
             </View>
@@ -381,7 +380,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
                     登录授权
                   </AtButton>
                 </View>
-                <AtForm
+                {/* <AtForm
                   onSubmit={this.onSubmit.bind(this)}
                   onReset={this.onReset.bind(this)}
                 >
@@ -395,7 +394,7 @@ export default class ButtonPage extends React.Component<{}, ButtonPageState> {
                       form reset
                     </AtButton>
                   </View>
-                </AtForm>
+                </AtForm> */}
               </View>
             </View>
           )}

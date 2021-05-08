@@ -18,8 +18,12 @@ const config = {
     options: {}
   },
   framework: 'react',
+  sass: {
+    resource: path.resolve(__dirname, '..', '../taro-ui/src/style/index.scss')
+  },
   alias: {
      '~': path.resolve(__dirname, '..', 'node_modules/'),
+     '@taro-ui': path.resolve(__dirname, '../', 'taro-ui/dist/index'),
   },
   mini: {
     postcss: {
@@ -58,6 +62,11 @@ const config = {
         }
       }
     }
+  },
+  rn: {
+    resolve: {
+      include: ['taro-ui']
+     }
   }
 }
 

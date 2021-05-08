@@ -28,3 +28,5 @@ stats.html
 
 # Test files
 coverage
+
+packages/taro-ui-demo/src/taro-ui
