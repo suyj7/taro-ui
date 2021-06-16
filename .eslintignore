@@ -12,6 +12,7 @@ packages/**/dist/
 # Test files
 coverage
 jest.config.js
+babel.config.js
 test/__mock__/
 
 # Others
