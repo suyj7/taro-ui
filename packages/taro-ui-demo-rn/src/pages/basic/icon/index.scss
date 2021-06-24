@@ -1,5 +1,6 @@
 .icon-list {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -8,6 +9,7 @@
     margin-bottom: 60px;
     width: 33%;
     text-align: center;
+    align-items: center;
   }
 
   &__name {

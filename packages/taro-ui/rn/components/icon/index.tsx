@@ -9,6 +9,10 @@ export default class AtIcon extends React.Component<AtIconProps> {
   public static defaultProps: AtIconProps
   public static propTypes: InferProps<AtIconProps>
 
+  componentDidMount() {
+    console.warn('RN暂不支持Icon')
+  }
+
   private handleClick(): void {
     this.props.onClick && this.props.onClick(arguments as any)
   }
@@ -34,7 +38,7 @@ export default class AtIcon extends React.Component<AtIconProps> {
         className={classNames(prefixClass, iconName, className)}
         style={mergeStyle(rootStyle, customStyle as object)}
         onClick={this.handleClick.bind(this)}
-      ></Text>
+      />
     )
   }
 }

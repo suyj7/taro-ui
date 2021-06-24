@@ -13,9 +13,9 @@
   border-radius: $border-radius-md;
   border: 1PX solid $color-border-base;
   margin: 0 $spacing-h-xl;
-  &:active {
-    opacity: $opacity-active;
-  }
+  // &:active {
+  //   opacity: $opacity-active;
+  // }
 
   /* elements */
 
@@ -64,10 +64,6 @@
     &--text {
       font-size: 26px;
     }
-
-    &.at-button--circle {
-      border-radius: $at-button-height-sm / 2;
-    }
   }
 
   &--full {
@@ -76,4 +72,8 @@
     max-width: 100%;
     border-radius: 0;
   }
+}
+
+.at-button--circle {
+  border-radius: $at-button-height-sm / 2;
 }

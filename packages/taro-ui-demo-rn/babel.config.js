@@ -10,18 +10,5 @@ module.exports = {
       }
     ]
   ],
-  plugins: [
-    [
-      'transform-imports',
-      {
-        'taro-ui': {
-          transform: function (importName, matches) {
-            console.log('matches', matches);
-            return `taro-ui/rn/components/${importName.replace("At", "").toLocaleLowerCase()}`;
-          },
-          preventFullImport: true
-        }
-      }
-    ]
-  ]
+
 }

@@ -26,7 +26,7 @@ interface PanelBasicState {
   currentId: string
 }
 
-const RN_NOT_SUPOORT = ['Icon']
+const RN_NOT_SUPOORT = ['']
 
 export default class PanelBasic extends React.Component<{}, PanelBasicState> {
   public config: Taro.PageConfig = {

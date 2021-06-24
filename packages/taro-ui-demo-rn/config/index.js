@@ -26,8 +26,8 @@ const config = {
     )
   },
   alias: {
-    '~': path.resolve(__dirname, '..', 'node_modules/'),
-    '@taro-ui': path.resolve(__dirname, '../', 'taro-ui/dist/index')
+    '~': `${path.resolve(__dirname, '..', 'node_modules')}/`,
+    'taro-ui': 'taro-ui/rn'
   },
   mini: {
     postcss: {

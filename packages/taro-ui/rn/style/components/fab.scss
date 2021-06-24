@@ -20,16 +20,24 @@
   // }
 
   /* elements */
-  &__icon,
-  .at-icon {
+  &__icon {
     width: $at-fab-icon-size;
     height: $at-fab-icon-size;
     font-size: $at-fab-icon-size;
   }
+
+
 
   /* modifiers */
   &--small {
     width: $at-fab-size-sm;
     height: $at-fab-size-sm;
   }
+}
+
+
+.at-icon {
+  width: $at-fab-icon-size;
+  height: $at-fab-icon-size;
+  font-size: $at-fab-icon-size;
 }

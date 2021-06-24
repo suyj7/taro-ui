@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtButton, AtFab } from 'taro-ui/rn'
+import { AtButton, AtFab } from 'taro-ui'
 import { Form, View, Text } from '@tarojs/components'
 import { CommonEvent } from '@tarojs/components/types/common'
 import Taro, { ShareAppMessageReturn } from '@tarojs/taro'
