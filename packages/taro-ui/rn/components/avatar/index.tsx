@@ -4,6 +4,7 @@ import React from 'react'
 import { Image, Text, View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import { AtAvatarProps, AtAvatarState } from '../../../types/avatar'
+import '../../style/components/avatar.scss'
 
 let OpenData: any = null
 if (process.env.TARO_ENV === 'rn') {
@@ -38,7 +39,7 @@ export default class AtAvatar extends React.Component<
     const iconSize = SIZE_CLASS[size || 'normal']
     const classObject = {
       [`at-avatar--${iconSize}`]: iconSize,
-      'at-avatar--circle': circle
+      [`at-avatar--${iconSize}__circle`]: circle
     }
 
     let letter = ''
@@ -50,7 +51,11 @@ export default class AtAvatar extends React.Component<
     } else if (image) {
       elem = <Image className='at-avatar__img' src={image} />
     } else {
-      elem = <Text className='at-avatar__text'>{letter}</Text>
+      elem = (
+        <Text className={`at-avatar__text at-avatar--${iconSize}__text`}>
+          {letter}
+        </Text>
+      )
     }
     return (
       <View

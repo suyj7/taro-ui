@@ -4,13 +4,9 @@
 .at-avatar {
   width: $at-avatar-size-md;
   height: $at-avatar-size-md;
-  color: $at-avatar-color;
-  font-size: $at-avatar-size-md / 2.5;
-  line-height: $at-avatar-size-md;
-  text-align: center;
   border-radius: $border-radius-md;
   background: $at-avatar-bg-color;
-  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.05);
+  // box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.05);
   overflow: hidden;
 
   /* elements */
@@ -19,24 +15,49 @@
     height: 100%;
   }
 
+  &__text {
+    color: $at-avatar-color;
+    text-align: center;
+  }
+
+  &--large__text {
+    font-size: $at-avatar-size-lg / 2.5;
+    line-height: $at-avatar-size-lg;
+  }
+
+  &--normal__text {
+    font-size: $at-avatar-size-md / 2.5;
+    line-height: $at-avatar-size-md;
+  }
+
+  &--small__text {
+    font-size: $at-avatar-size-sm / 2.5;
+    line-height: $at-avatar-size-sm;
+  }
+
   /* modifiers */
   &--large {
     width: $at-avatar-size-lg;
     height: $at-avatar-size-lg;
-    font-size: $at-avatar-size-lg / 2.5;
-    line-height: $at-avatar-size-lg;
   }
 
   &--small {
     width: $at-avatar-size-sm;
     height: $at-avatar-size-sm;
-    font-size: $at-avatar-size-sm / 2.5;
-    line-height: $at-avatar-size-sm;
   }
 
-  &--circle {
-    border-radius: 50%;
-    background-clip: border-box;
+  &--large__circle {
+    border-radius: $at-avatar-size-lg / 2;
+    overflow: hidden;
+  }
+
+  &--normal__circle {
+    border-radius: $at-avatar-size-md / 2;
+    overflow: hidden;
+  }
+
+  &--small__circle {
+    border-radius: $at-avatar-size-sm / 2;
     overflow: hidden;
   }
 }
