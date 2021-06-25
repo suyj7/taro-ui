@@ -2,9 +2,9 @@
 @import '../mixins/index.scss';
 
 .at-article {
-  word-break: break-all;
-  word-wrap: break-word;
-  line-height: $line-height-zh;
+  // word-break: break-all;
+  // word-wrap: break-word;
+  // line-height: $line-height-zh;
 
   /* elements */
   &__h1,
@@ -46,7 +46,7 @@
   }
 
   &__img {
-    display: block;
+    // display: block;
     margin: 20px auto 0;
     width: 690px;
     border-radius: 4px;
