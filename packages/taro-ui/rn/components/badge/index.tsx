@@ -1,8 +1,9 @@
 import classNames from 'classnames'
 import PropTypes, { InferProps } from 'prop-types'
 import React from 'react'
-import { View } from '@tarojs/components'
+import { View, Text } from '@tarojs/components'
 import { AtBadgeProps } from '../../../types/badge'
+import '../../style/components/badge.scss'
 
 export default class AtBadge extends React.Component<AtBadgeProps> {
   public static defaultProps: AtBadgeProps
@@ -37,12 +38,20 @@ export default class AtBadge extends React.Component<AtBadgeProps> {
         className={classNames(rootClassName, this.props.className)}
         style={customStyle}
       >
-        {this.props.children}
-        {dot ? (
-          <View className='at-badge__dot'></View>
-        ) : (
-          val !== '' && <View className='at-badge__num'>{val}</View>
-        )}
+        <View className='at-badge-wrap'>
+          {this.props.children}
+          {dot ? (
+            <View className='at-badge__dot'></View>
+          ) : (
+            val !== '' && (
+              <View className='at-badge--wrap'>
+                <View className='at-badge--wrap__num'>
+                  <Text className='at-badge--wrap__num__text'>{val}</Text>
+                </View>
+              </View>
+            )
+          )}
+        </View>
       </View>
     )
   }
